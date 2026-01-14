@@ -105,14 +105,14 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div className={`lg:hidden absolute inset-0 top-18 bg-black backdrop-blur-md transition-all duration-300 ${
-        isMenuOpen ? 'opacity-100 visible bg-black' : 'opacity-0 invisible'
+        isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
       }`}>
-        <nav className="flex flex-col h-full p-6 z-50 bg-black">
-          <ul className="flex flex-col gap-6 text-lg ">
+        <nav className="flex flex-col h-full  -mt-3 z-50 bg-black">
+          <ul className="flex flex-col gap-6 p-6 text-lg bg-[#1b1311]/95">
             {links}
           </ul>
           
-          <div className="mt-auto space-y-4 pb-8">
+          <div className="mt-auto space-y-4 p-6 bg-[#1b1311]/95 pb-8 border-b border-gray-800">
             <Link
               to="https://simupitch.ai/login"
               target="_blank"
