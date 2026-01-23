@@ -1,9 +1,9 @@
-# Tareen Hossain — Marketing Landing (Vite + React)
+# Marketing Landing (Vite + React) v1
 
 A modern, responsive marketing landing built with React and Vite. This repository contains a lightweight component-driven UI focused on clarity, accessible layout, and smooth scroll interactions — ideal as a starter for product or personal landing pages.
 
 ## Demo
-
+<a href="https://saas-page-tawny.vercel.app">Live</a>
 - Open the app locally (instructions below) to preview the demo.
 
 ## Features
